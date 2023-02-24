@@ -1,0 +1,48 @@
+{
+  "name": "ODBC",
+  "description": "Developed on Dependencies:\r\nUiPath.System.Activities 22.10.3\r\n\r\n1. ODBC_OpenConnection\r\n2. ODBC_ExecuteQueryCommand\r\n3. ODBC_ReadRecordsetToDataTable\r\n4. ODBC_CloseDataReader\r\n5. ODBC_DisposeQueryCommand\r\n6. ODBC_CloseConnection",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "22.10.3"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.3.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
